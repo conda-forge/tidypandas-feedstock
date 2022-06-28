@@ -1,5 +1,5 @@
 {% set name = "tidypandas" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tidypandas-{{ version }}.tar.gz
-  sha256: b973951f64227f17874c9ee5b3b267b551d3b7fa6a644aab373fc0bd1be13969
+  sha256: ccc01a19bc4a8390693dbbd5f431221e1c84ab719a0a6c5f1b4bd7f6c8a9e43f
 
 build:
   noarch: python
