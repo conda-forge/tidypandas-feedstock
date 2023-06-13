@@ -1,11 +1,11 @@
-About tidypandas
-================
+About tidypandas-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tidypandas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://talegari.github.io/tidypandas/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tidypandas-feedstock/blob/main/LICENSE.txt)
 
 Summary: A grammar of data manipulation for pandas inspired by tidyverse
 
