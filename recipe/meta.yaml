@@ -1,5 +1,5 @@
 {% set name = "tidypandas" %}
-{% set version = "0.2.6" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tidypandas-{{ version }}.tar.gz
-  sha256: 840cc724fbfdefd87a149774d0dd5353310624bfd5d658ad3f8313ab25757d60
+  sha256: 4e3e14bf3d4a1ffa88508cd1db192ae989a4f467b34a61c5497242c6087db8af
 
 build:
   noarch: python
@@ -18,11 +18,12 @@ requirements:
   host:
     - pip
     - poetry-core >=1.0.0
-    - python >=3.8,<4.0
+    - python >=3.8.0,<4.0.0
   run:
-    - collections-extended >=2.0.2,<3.0.0
-    - pandas >=1.0.0,<2.0.0
-    - python >=3.6,<4.0
+    - collections-extended >=2.0.2
+    - numpy
+    - pandas >=1.0.0
+    - python >=3.8.0,<4.0.0
 
 test:
   imports:
